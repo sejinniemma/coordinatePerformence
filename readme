@@ -1,0 +1,18 @@
+clientX와 clientY의 값을 받아와서 mousemove가 될때
+ x,y 축으로 움직일 수 있도록 했다.
+
+1.using translate instead of top,left for better performence so that we can prevent layout occure.
+
+성능개선을 위해 CSS에서 top,left값을 제거하고 
+자바스크립트에서 translate을 이용해 layout이 
+계속해서 발생하는 것을 방지했다.
+
+2.sometimes  there could be a problem to get getBoundingClientRect before loading img.
+we can prevent by using 'load' instead of 'defer' or 'DOMContentLoaded'.
+
+가끔 이미지가 로드가 되기 전에 값을 먼저 받아와서 
+이미지의 위치가 제대로 나오지 않는 경우가 있다
+이러한 경우는 defer을 사용했기때문에 이미지가 받아와지기 전에
+로드되기 때문에 'load'를 이용해서 이미지까지 다 받아와진 후에
+이미지의 높이와 넓이를 받아올 수 있도록해서
+위치가 정상적으로 표시될 수 있도록 만들었다. 
