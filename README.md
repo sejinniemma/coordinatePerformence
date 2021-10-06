@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/80943394/136160851-ea806cad-475a-4b36-
 ### good performenve using transform 🥰
 <img width="959" alt="스크린샷 2021-10-06 오후 4 13 05" src="https://user-images.githubusercontent.com/80943394/136161579-edaee4c3-b4cb-4e60-af01-3db98a0f4235.png">
 
-## Check performence in performence tap !!
+## Check performence in performence tap !!✅
 
 - It seems like similar when we move the mouse on the browser 
 - but if we check performence , it's totally diffrent
