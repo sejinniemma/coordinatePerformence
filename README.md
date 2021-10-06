@@ -28,4 +28,8 @@ https://user-images.githubusercontent.com/80943394/136160851-ea806cad-475a-4b36-
 - It seems like similar when we move the mouse on the browser 
 - but if we check performence , it's totally diffrent
 
+1. Bad performence when using x,y position
+<img width="922" alt="스크린샷 2021-10-06 오후 4 59 15" src="https://user-images.githubusercontent.com/80943394/136163197-adcc8262-0c2a-4dcf-833d-e75ef1547759.png">
+
+2. Good performence when using transform
 <img width="1053" alt="스크린샷 2021-10-06 오후 4 56 18" src="https://user-images.githubusercontent.com/80943394/136162811-ce6be53e-1238-4c66-ba5d-c020ace8f541.png">
