@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/80943394/136160851-ea806cad-475a-4b36-
 ### write code again for good performence like down below
 1. using translate instead of top,left for better performence so that we can prevent layout occure.
 2. sometimes  there could be a problem to get getBoundingClientRect before getting img.
-we can prevent this problem by using 'load' instead of 'defer' or 'DOMContentLoaded'.
+<br> we can prevent this problem by using 'load' instead of 'defer' or 'DOMContentLoaded'.
 
 
 ### bad performence using x,y position 💩❌
