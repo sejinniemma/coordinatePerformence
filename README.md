@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/80943394/136160851-ea806cad-475a-4b36-
 
 ### What I changed
 1. using translate instead of top,left for better performence so that we can prevent layout occure.
-2. sometimes  there could be a problem to get getBoundingClientRect before getting img.
+2. sometimes  there could be a problem to get image.getBoundingClientRect() first before getting image.
 <br> we can prevent this problem by using 'load' instead of 'defer' or 'DOMContentLoaded'.
 
 
