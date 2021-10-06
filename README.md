@@ -17,6 +17,7 @@ https://user-images.githubusercontent.com/80943394/136160851-ea806cad-475a-4b36-
 
 
 ### bad performence using x,y position 💩❌
+- paint , layout always are happening ( reference CSS triggers)
 <img width="616" alt="스크린샷 2021-10-06 오후 4 14 29" src="https://user-images.githubusercontent.com/80943394/136159333-43c454b1-dd32-460c-9aea-ef7ec6fbd178.png">
 
 ### good performenve using transform 🥰
